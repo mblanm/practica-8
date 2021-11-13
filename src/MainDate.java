@@ -20,6 +20,7 @@ public class MainDate {
 			System.out.println("ERROR >>>> " + e.getMessage());
 		}
 
+		// try catch finally
 		try {
 			int resultado = 10 / 0;
 		} catch (ArithmeticException e) {
